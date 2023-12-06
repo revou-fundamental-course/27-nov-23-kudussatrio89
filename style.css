@@ -1,0 +1,50 @@
+.navigation-bar{
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background-color: skyblue;
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    color: red;
+}
+
+.luas-segitiga{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background: gray ;
+    border-radius: 8px;
+    box-shadow: (38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+    background: black ;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.keliling-segitiga{
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    padding: 15px;
+    background: gray ;
+    border-radius: 8px;
+    box-shadow: (38, 57, 77) 0px 20px 30px -10px;
+}
